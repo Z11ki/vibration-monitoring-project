@@ -1,0 +1,14 @@
+Firebase Realtime Database structure example:
+
+{
+  "Machines": {
+    "Machine_1": {
+      "vibration_level": 12.3,
+      "timestamp": "2025-06-18 10:32:00"
+    }
+  }
+}
+
+Tips:
+- Use Machine IDs in paths for multiple devices
+- Secure your database rules before production
